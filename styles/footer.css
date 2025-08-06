@@ -1,0 +1,22 @@
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer span {
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+  margin-bottom: 1rem;
+}

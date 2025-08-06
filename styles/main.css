@@ -1,5 +1,6 @@
 main {
   padding: 2rem;
+  background-color: var(--surface-color);
 }
 
 .profile-image {
@@ -16,7 +17,7 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-p {
+main p {
   font: var(--text-md);
   color: var(--text-color-secondary);
   margin-bottom: 2rem;

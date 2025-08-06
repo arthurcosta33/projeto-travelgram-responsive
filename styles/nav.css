@@ -6,7 +6,9 @@ nav {
   justify-content: space-between;
 }
 
-nav img {
+.profile-image-nav {
+  width: 2.5rem;
+  height: 2.5rem;
   object-fit: cover;
   vertical-align: middle;
 }

@@ -1,3 +1,7 @@
+footer {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
 footer p {
   display: flex;
   align-items: center;
@@ -19,4 +23,16 @@ footer span {
   font: var(--text-md);
   color: var(--text-color-secondary);
   margin-bottom: 1rem;
+}
+
+@media (width >= 48rem) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer span {
+    margin-bottom: 0;
+  }
+
 }

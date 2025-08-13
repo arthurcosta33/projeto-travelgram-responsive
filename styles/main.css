@@ -38,3 +38,32 @@ main p {
 .profile-info p {
   margin: 0;
 }
+
+@media (width >= 48rem) {
+  .profile-user {
+    display: flex;
+  }
+
+  .info-user {
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .text-user {
+    max-width: 300px;
+  }
+
+  .profile-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (width >= 80rem) {
+.text-user {
+    max-width: 410px;
+  }
+}

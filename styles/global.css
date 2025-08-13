@@ -20,7 +20,3 @@
   --text-md: 0.875rem/170% var(--font-family);
   --text-sm: 0.75rem/170% var(--font-family);
 }
-
-html {
-  overflow-x: hidden;
-}
